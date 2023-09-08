@@ -1,16 +1,36 @@
+/* Header Styles */
+header {
+    background-color: #ff0000;
+}
+
 h1 {
-  background-color: #ff0000;
+    color: #ffffff;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #00FF00;
+    padding: 20px;
 }
 
 h2 {
-  background-color: #0000FF;
+    color: #0000FF;
 }
 
 h3 {
-  background-color: #00FF00;
+    color: #00FF00;
 }
 
+/* Emphasis Styles */
 em {
-  background-color: #000000;
-  color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
 }
