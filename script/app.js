@@ -24,4 +24,4 @@ function displaymult() {
 
 document.getElementById('sumButton').addEventListener("click", displaySum);
 document.getElementById('diffButton').addEventListener("click", displayDiff);
-document.getElementById('diffButton').addEventListener("click", displaymult);
+document.getElementById('multButton').addEventListener("click", displaymult);
