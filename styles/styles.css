@@ -3,26 +3,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif; /* Choose a nice font style */
-  background-color: #f4f4f4; /* Matte background color */
+  background-color: #000; /* Matte black background color */
   text-align: center; /* Center align text */
+  color: #fff; /* White text color */
 }
 
 /* Style the headings */
 h1 {
-  color: #333; /* Dark text color */
+  color: #fff; /* White text color */
 }
 
 h2 {
-  color: #0077b6; /* Blue text color */
+  color: #fff; /* White text color */
 }
 
 h3 {
-  color: #00a896; /* Green text color */
+  color: #fff; /* White text color */
 }
 
 /* Style the paragraphs */
 p {
-  color: #333; /* Dark text color */
+  color: #fff; /* White text color */
 }
 
 /* Style the list */
@@ -32,7 +33,7 @@ ul {
 }
 
 li {
-  color: #333; /* Dark text color for list items */
+  color: #fff; /* White text color for list items */
 }
 
 /* Style the buttons and add hover effect */
@@ -80,4 +81,3 @@ input[type="button"] {
 }
 
 /* ... (rest of the CSS) ... */
-
