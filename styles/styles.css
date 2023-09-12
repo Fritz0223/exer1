@@ -1,36 +1,72 @@
-/* Header Styles */
-header {
-    background-color: #ff0000;
+/* Reset some default styles and apply a matte background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Choose a nice font style */
+  background-color: #f4f4f4; /* Matte background color */
+  text-align: center; /* Center align text */
 }
 
+/* Style the headings */
 h1 {
-    color: black;
-}
-
-/* Main Content Styles */
-main {
-    background-color: #00FF00;
-    padding: 20px;
+  color: #333; /* Dark text color */
 }
 
 h2 {
-    color: #0000FF;
+  color: #0077b6; /* Blue text color */
 }
 
 h3 {
-    color: #00FF00;
+  color: #00a896; /* Green text color */
 }
 
-/* Emphasis Styles */
+/* Style the paragraphs */
+p {
+  color: #333; /* Dark text color */
+}
+
 em {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000; /* Black background color */
+  color: #00a896; /* Green text color */
 }
 
-/* Footer Styles */
-footer {
-    background-color: #333;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
+/* Style the list */
+ul {
+  text-align: left; /* Left-align list items */
+  margin-left: 20px; /* Add some margin for indentation */
+}
+
+li {
+  color: #333; /* Dark text color for list items */
+}
+
+/* Style the buttons */
+input[type="button"] {
+  background-color: #00a896; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Add some margin and padding for better spacing */
+p, ul {
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+/* Center-align the headings */
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Style the spans within paragraphs */
+span {
+  background-color: #000; /* Black background color */
+  color: #00a896; /* Green text color */
+}
+
+/* Add some spacing to the buttons */
+input[type="button"] {
+  margin: 10px;
 }
