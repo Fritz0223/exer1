@@ -1,98 +1,49 @@
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>QUIJE</title>
 
-/* Global styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
+<br>
+  
+</head>
+<body>
+  <h1>QUIJE, FRITZ EVAR</h1>
+  <h2>This is a second level heading in HTML. With CSS, I will turn this into blue color</h2>
+  <h3>This is a third level heading in HTML. With CSS, I will turn this into green color</h3>
+  <p>This is a <em>paragragh</em> As you can see, I placed an empahisis on the word "paragraph". Now, I will change also
+    the background color of the word "paragraph" to black, and its text color  to green, all with just CSS.</p>
+  <br>
+  <p>The main essence of this tutorial is to:</p>
+    <ul>
+       <li>Show you how to format a web document with HTML</li>
+       <li>Show you how to design a web page with CSS</li>
+       <li>Show you how to program a web document with JavaScript</li>
+    </ul>
 
-header {
-  background-color: #007bff;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
 
-h1 {
-  font-size: 36px;
-}
+<br>
+<br>
+  
+  <p>Next, I am going to add the following two numbers and display the result, all with JavaScript<p/>
+    <p>First number:<span id= "firstNum">270</span> <br></p>
+    <p>Second number: <span id= "secondNum">70</span> </p>
 
-h2 {
-  font-size: 24px;
-  margin-top: 10px;
-}
+  <br>
+  
+    <p>Therefore, the sum of the two of those numbers is: <span id= "sumanswer"></span></p>
+    <input type="button" id="sumButton" value="Click to add!">
 
-/* Content section */
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-}
+    <p>Therefore, the difference of the two of those numbers is: <span id= "diffanswer"</span></p>
+    <input type="button" id="diffButton" value="Click to subtract!">
 
-/* Article styles */
-article {
-  margin-bottom: 20px;
-}
-
-h2 {
-  color: #007bff;
-  font-size: 24px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Emphasized text */
-em {
-  background-color: black;
-  color: green;
-  padding: 2px 5px;
-}
-
-/* Unordered list styles */
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 10px;
-}
-
-li {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-/* Button styles */
-button {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Span styles for numbers */
-span {
-  font-weight: bold;
-}
-
-/* JavaScript Calculator section */
-#sumButton, #diffButton, #multButton {
-  display: block;
-  margin-top: 20px;
-}
+    <p>Therefore, the product of the two of those numbers is: <span id= "multanswer"</span></p>
+    <input type="button" id="multButton" value="Click to multiply!">
+  
+  <script src="./script/app.js">  </script>
+</body>
+</html>
