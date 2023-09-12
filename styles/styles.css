@@ -25,11 +25,6 @@ p {
   color: #333; /* Dark text color */
 }
 
-em {
-  background-color: #000; /* Black background color */
-  color: #00a896; /* Green text color */
-}
-
 /* Style the list */
 ul {
   text-align: left; /* Left-align list items */
