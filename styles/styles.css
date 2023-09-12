@@ -40,13 +40,19 @@ li {
   color: #333; /* Dark text color for list items */
 }
 
-/* Style the buttons */
+/* Style the buttons and add hover effect */
 input[type="button"] {
   background-color: #00a896; /* Button background color */
   color: #fff; /* Button text color */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for buttons */
+input[type="button"]:hover {
+  background-color: #007b5f; /* Button background color on hover */
 }
 
 /* Add some margin and padding for better spacing */
